@@ -1,7 +1,9 @@
 import "./App.css";
 import {
-  ThemeProvider, AnchorNav, CTABanner, Button, Hero
+  ThemeProvider, AnchorNav, CTABanner, Button
 } from "@primer/react-brand";
+
+const hero = "https://github.com/adriaticai/adriaticai.github.io/raw/refs/heads/gh-pages/images/hero.png";
 
 const App = () => (
   <ThemeProvider
@@ -16,14 +18,13 @@ const App = () => (
       <AnchorNav.Link href="contact">Contact</AnchorNav.Link>
       <AnchorNav.Action href="register">Sign up</AnchorNav.Action>
     </AnchorNav>
-    <div style={{ paddingTop: 20, paddingBottom: 20 }}>
+    <div style={{ paddingTop: 20, paddingBottom: 20, paddingLeft: 10, paddingRight: 10 }}>
       <CTABanner
         backgroundImageSrc={{
-          narrow: "images/hero.png",
-          regular: "images/hero.png",
-          wide: "images/hero.png"
+          narrow: hero,
+          regular: hero,
+          wide: hero
         }}
-        backgroundColor="red"
         align="center"
       >
         <CTABanner.Heading>
@@ -37,14 +38,6 @@ const App = () => (
         <CTABanner.ButtonGroup>
           <Button>I'm interested</Button>
         </CTABanner.ButtonGroup>
-      </CTABanner>
-      <Hero />
-      <CTABanner>
-        <CTABanner.Heading size="3">
-          AI will become ubiquitous.
-          <br />
-          Deliver value to stand out
-        </CTABanner.Heading>
       </CTABanner>
     </div>
   </ThemeProvider>
