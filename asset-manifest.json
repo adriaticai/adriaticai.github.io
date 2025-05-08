@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.4c6879a8.css",
-    "main.js": "/static/js/main.3d0e504a.js",
+    "main.js": "/static/js/main.d7fbc296.js",
     "static/media/Hubot-Sans.woff2": "/static/media/Hubot-Sans.673c670238fe335b6475.woff2",
     "static/media/Mona-Sans.woff2": "/static/media/Mona-Sans.2f40792e491758879b85.woff2",
     "index.html": "/index.html",
     "main.4c6879a8.css.map": "/static/css/main.4c6879a8.css.map",
-    "main.3d0e504a.js.map": "/static/js/main.3d0e504a.js.map"
+    "main.d7fbc296.js.map": "/static/js/main.d7fbc296.js.map"
   },
   "entrypoints": [
     "static/css/main.4c6879a8.css",
-    "static/js/main.3d0e504a.js"
+    "static/js/main.d7fbc296.js"
   ]
 }
